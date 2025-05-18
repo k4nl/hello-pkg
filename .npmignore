@@ -1,0 +1,10 @@
+aws/
+core/
+rabbitmq/
+test/
+*.ts
+tsconfig.json
+tsconfig.build.json
+.eslintrc.js
+.prettierrc
+node_modules/
