@@ -6,12 +6,12 @@ export enum AWSConstants {
 }
 
 export enum AwsQueue {
-  GATEWAY = 'gateway',
-  CREATE_USER = 'create-user',
-  UPDATE_USER = 'update-user',
-  DELETE_USER = 'delete-user',
-  GET_USER_INFO = 'get-user-info',
-  TOOL_RESPONSE = 'tool-response',
+  GATEWAY = 'gateway.fifo',
+  CREATE_USER = 'create-user.fifo',
+  UPDATE_USER = 'update-user.fifo',
+  DELETE_USER = 'delete-user.fifo',
+  GET_USER_INFO = 'get-user-info.fifo',
+  TOOL_RESPONSE = 'tool-response.fifo',
 }
 
 export interface SqsTransporterOptions {

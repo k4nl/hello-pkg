@@ -1,7 +1,6 @@
 
 import { v4 as uuidv4, validate } from 'uuid';
-import { ValueObject } from '@domain/value-objects';
-
+import { ValueObject } from './value-object';
 export class ID extends ValueObject<string> {
   constructor(value?: string) {
     super(value || uuidv4());
